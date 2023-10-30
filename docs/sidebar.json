@@ -1,0 +1,27 @@
+[
+    {
+        "title": "Particle Specs",
+        "pages": {
+            "/": "Introduction",
+            "/overview": "Overview"
+        }
+    },
+    {
+        "title": "Resources",
+        "pages": {
+            "/resources/particle-thumbnail": "Particle Thumbnail",
+            "/resources/particle-texture": "Particle Texture",
+            "/resources/particle-data": "Particle Data",
+            "/resources/particle-data-sprite": "Particle Data Sprite",
+            "/resources/particle-data-effect": "Particle Data Effect"
+        }
+    },
+    {
+        "title": "Essentials",
+        "pages": {
+            "/essentials/particle-effect-name": "Particle Effect Name",
+            "/essentials/particle-effect-transform": "Particle Effect Transform",
+            "/essentials/particle-effect-particle-property-expression": "Particle Effect Particle Property Expression"
+        }
+    }
+]
