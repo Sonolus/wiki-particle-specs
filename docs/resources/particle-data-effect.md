@@ -45,8 +45,8 @@ type ParticleDataGroupParticleProperty = {
     from?: ParticleDataGroupParticlePropertyExpression
     to?: ParticleDataGroupParticlePropertyExpression
     ease?:
-        | 'Linear'
-        | `${'In' | 'Out' | 'InOut' | 'OutIn'}${
+        | 'linear'
+        | `${'in' | 'out' | 'inOut' | 'outIn'}${
               | 'Sine'
               | 'Quad'
               | 'Cubic'
@@ -56,7 +56,7 @@ type ParticleDataGroupParticleProperty = {
               | 'Circ'
               | 'Back'
               | 'Elastic'}`
-        | 'None'
+        | 'none'
 }
 
 type ParticleDataGroupParticlePropertyExpression = Partial<
@@ -135,7 +135,7 @@ See [Particle Effect Particle Property Expression](../essentials/particle-effect
                     "x": {
                         "from": { "c": -1 },
                         "to": { "c": 1 },
-                        "ease": "OutCubic"
+                        "ease": "outCubic"
                     }
                     // ...
                 }
